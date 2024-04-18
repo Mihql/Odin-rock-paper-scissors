@@ -29,7 +29,7 @@ function playRound(player, computerChoice) {
     resetGame();
   }
 
-  document.getElementById("round").textContent = count;
+  document.getElementById("round").textContent = "Rounds: " + count;
   document.getElementById("scoreplayer").textContent =
     "Player Score: " + playerScore;
   document.getElementById("scorecomputer").textContent =
